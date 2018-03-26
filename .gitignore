@@ -8,3 +8,5 @@ appengine-generated/
 \.settings/
 
 \.target/
+/target/
+/build/
