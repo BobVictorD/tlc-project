@@ -1,0 +1,62 @@
+Test de charge via Google AppEngine
+Test #7 : DELETE : searchByTitle=Picsou
+50 transactions de la séquence 0
+Durée totale : 14906ms.
+Durée moyenne : 298ms.
+1 transactions de la séquence 0
+Durée totale : 809ms.
+Durée moyenne : 809ms.
+50 transactions de la séquence 0
+Durée totale : 13511ms.
+Durée moyenne : 270ms.
+1 transactions de la séquence 0
+Durée totale : 687ms.
+Durée moyenne : 687ms.
+50 transactions de la séquence 0
+Durée totale : 17348ms.
+Durée moyenne : 346ms.
+1 transactions de la séquence 0
+Durée totale : 388ms.
+Durée moyenne : 388ms.
+50 transactions de la séquence 0
+Durée totale : 12905ms.
+Durée moyenne : 258ms.
+1 transactions de la séquence 0
+Durée totale : 394ms.
+Durée moyenne : 394ms.
+50 transactions de la séquence 0
+Durée totale : 13101ms.
+Durée moyenne : 262ms.
+1 transactions de la séquence 0
+Durée totale : 419ms.
+Durée moyenne : 419ms.
+50 transactions de la séquence 0
+Durée totale : 12969ms.
+Durée moyenne : 259ms.
+1 transactions de la séquence 0
+Durée totale : 1161ms.
+Durée moyenne : 1161ms.
+50 transactions de la séquence 0
+Durée totale : 12510ms.
+Durée moyenne : 250ms.
+1 transactions de la séquence 0
+Durée totale : 425ms.
+Durée moyenne : 425ms.
+50 transactions de la séquence 0
+Durée totale : 12927ms.
+Durée moyenne : 258ms.
+1 transactions de la séquence 0
+Durée totale : 377ms.
+Durée moyenne : 377ms.
+50 transactions de la séquence 0
+Durée totale : 13135ms.
+Durée moyenne : 262ms.
+1 transactions de la séquence 0
+Durée totale : 625ms.
+Durée moyenne : 625ms.
+50 transactions de la séquence 0
+Durée totale : 13113ms.
+Durée moyenne : 262ms.
+1 transactions de la séquence 0
+Durée totale : 389ms.
+Durée moyenne : 389ms.

@@ -32,7 +32,8 @@ public class ApiAdvertisementServlet extends HttpServlet {
 		System.out.println("POST");
 
 		response.setContentType("application/json");
-		response.setCharacterEncoding("UTF-8");		
+		response.setCharacterEncoding("UTF-8");	
+
 		String content = request.getParameter("content");
 		
 		List<Advertisement> advs = mapper.readValue(content, new TypeReference<List<Advertisement>>(){});

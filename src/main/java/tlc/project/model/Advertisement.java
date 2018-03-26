@@ -45,6 +45,6 @@ public class Advertisement {
 	
 	@Override
 	public String toString() {
-		return title+ " - " + price + " - " + date;  
+		return title + " - " + price + " - " + date;  
 	}
 }

@@ -42,15 +42,19 @@ private static final long serialVersionUID = 1L;
 		Date searchByDateMin = null;
 		Date searchByDateMax = null;
 		searchByTitle = request.getParameter("searchByTitle");
+		System.out.println("	searchByTitle : " + searchByTitle);
 		String param = request.getParameter("searchByPriceMin");
+		System.out.println("	searchByPriceMin : " + param);
 		if (param != null && !param.isEmpty()) {
 			searchByPriceMin = Long.decode(param);
 		}
 		param = request.getParameter("searchByPriceMax");
+		System.out.println("	searchByPriceMax : " + param);		
 		if (param != null && !param.isEmpty()) {
 			searchByPriceMax = Long.decode(param);
 		}
 		param = request.getParameter("searchByDateMin");
+		System.out.println("	searchByDateMin : " + param);	
 		if (param != null && !param.isEmpty()) {
 			try {
 				searchByDateMin = dateFormater.parse(param);
@@ -60,6 +64,7 @@ private static final long serialVersionUID = 1L;
 			}
 		}
 		param = request.getParameter("searchByDateMax");
+		System.out.println("	searchByDateMax : " + param);
 		if (param != null && !param.isEmpty()) {
 			try {
 				searchByDateMax = dateFormater.parse(param);
@@ -69,6 +74,10 @@ private static final long serialVersionUID = 1L;
 			}
 		}
 		List<Advertisement> advertisements = advService.get(searchByTitle, searchByPriceMin, searchByPriceMax,searchByDateMin, searchByDateMax);
+		if (advertisements != null)
+			System.out.println(advertisements.size() + " elements found");
+		else
+			System.out.println("0 element found");
 		response.sendRedirect("/home.jsp");
 
 	}

@@ -1,0 +1,33 @@
+Test de charge via Google AppEngine
+Test #3 : POST : https://vaulted-hawk-194622.appspot.com/api/advertisementV2 - content=[{ "title":"Picsou", "price":20}]
+10 transactions de la séquence 0
+Durée totale : 4532ms.
+Durée moyenne : 453ms.
+10 transactions de la séquence 1
+Durée totale : 3162ms.
+Durée moyenne : 316ms.
+10 transactions de la séquence 2
+Durée totale : 3017ms.
+Durée moyenne : 301ms.
+10 transactions de la séquence 3
+Durée totale : 2949ms.
+Durée moyenne : 294ms.
+10 transactions de la séquence 4
+Durée totale : 3573ms.
+Durée moyenne : 357ms.
+Test #3 : POST : https://vaulted-hawk-194622.appspot.com/api/advertisementV2 - content=[{ "title":"Picsou", "price":20}]
+100 transactions de la séquence 0
+Durée totale : 28941ms.
+Durée moyenne : 289ms.
+100 transactions de la séquence 1
+Durée totale : 27302ms.
+Durée moyenne : 273ms.
+100 transactions de la séquence 2
+Durée totale : 30400ms.
+Durée moyenne : 304ms.
+100 transactions de la séquence 3
+Durée totale : 26206ms.
+Durée moyenne : 262ms.
+100 transactions de la séquence 4
+Durée totale : 26092ms.
+Durée moyenne : 260ms.
